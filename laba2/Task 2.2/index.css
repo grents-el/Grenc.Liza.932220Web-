@@ -1,0 +1,101 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: padding-box;
+}
+
+body {
+    
+    line-height: 1.52;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0;
+}
+
+/* Header Styles */
+.header {
+    background-color: #f4f4f4;
+    padding: 20px 10px;
+    text-align: left;
+    
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+/* First Text (Left Column, Fixed Width) */
+.first-text {
+    background-color: #C8FC98;
+    width: 1600px;
+    height: 260px;
+    padding: 1px 5px;
+    margin-right: 0;
+    font-size: 12px;
+    
+}
+
+.right-text {
+    background-color: #FDE95E;
+    width: 660px;
+    padding: 1px 5px;
+    margin-right: 0;
+    font-size: 12px;
+   
+}
+
+.first-text h2 {
+    font-size: 12px;
+}
+.right-text h2 {
+    font-size: 12px;
+}
+.red-italic {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.black-italic {
+    color: black;
+    font-weight: bold;
+}
+
+/* Second Text (Content Column, Fluid Width) */
+.second-text {
+    margin-left: 10px;
+    flex-grow: 1;
+    font-size: 12px;
+    padding: 2px;/* This makes the second-text take the remaining width */
+}
+
+.second-text h2 {
+    font-size: 12px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    font-size: 14px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a {
+    color: yellow;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+

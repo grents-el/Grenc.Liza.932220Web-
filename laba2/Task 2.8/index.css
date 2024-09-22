@@ -1,0 +1,26 @@
+div {
+}
+
+#sidebar {
+    background-color: aqua;
+}
+
+#menu {
+    background-color: bisque;
+    width: 200px;
+    float: left;
+}
+
+#main {
+    background-color: darkgray;
+    margin-left: 200px;
+}
+
+#footer {
+    background-color: limegreen;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+}

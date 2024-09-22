@@ -1,0 +1,88 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    line-height: 1.6;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    text-align: left;
+    
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+/* First Text (Left Column, Fixed Width) */
+.first-text {
+    background-color: #C8FC98;
+    width: 500px;
+    padding: 5px;
+    margin-right: 0;
+    font-size: 12px;
+}
+
+.first-text h2 {
+    font-size: 14px;
+}
+
+.red-italic {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.black-italic {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+/* Second Text (Content Column, Fluid Width) */
+.second-text {
+    margin-left: 12px;
+    flex-grow: 1;
+    font-size: 12px;/* This makes the second-text take the remaining width */
+}
+
+
+
+/* Footer Styles */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    font-size: 14px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a {
+    color: yellow;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+

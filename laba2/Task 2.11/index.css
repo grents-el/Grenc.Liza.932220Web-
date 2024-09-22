@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    background-color: aqua;
+    width: 100%;
+    overflow: auto;
+    font-size: 12px;
+    border: 1px solid forestgreen;
+}
+
+img {
+    float: right;
+}

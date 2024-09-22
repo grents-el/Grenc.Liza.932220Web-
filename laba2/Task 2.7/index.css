@@ -1,0 +1,53 @@
+div {
+    color: white;
+}
+
+#static {
+    background-color: blueviolet;
+    position: static;
+    height: 100px;
+    width: 150px;
+}
+
+#relative1 {
+    background-color: darkred;
+    position: relative;
+    height: 100px;
+    width: 150px;
+}
+
+#relative2 {
+    background-color: peru;
+    position: relative;
+    height: 100px;
+    width: 150px;
+    left: 30px;
+    top: -30px;
+}
+
+#big_relative {
+    background-color: indianred;
+    position: relative;
+    height: 320px;
+    width: 600px;
+    z-index: 10;
+}
+
+#absolute {
+    background-color: indigo;
+    position: absolute;
+    height: 150px;
+    width: 300px;
+    right: 0;
+    top: 100px;
+}
+
+#fixed {
+    background-color: forestgreen;
+    position: fixed;
+    height: 110px;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}

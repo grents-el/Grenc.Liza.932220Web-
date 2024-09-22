@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#background {
+    background-color: aqua;
+    width: 100%;
+    overflow: auto;
+    font-size: 12px;
+    border: 1px solid forestgreen;
+}
+
+#menu {
+    background-color: bisque;
+    width: 25%;
+    left: 0;
+    top: 0;
+    padding: 5px 0;
+    float: left;
+}
+
+#main {
+    background-color: darkgray;
+    height: 100%;
+    position: static;
+}
+
+#additiontext {
+    background-color: darkgray;
+    top: 0;
+    clear: both;
+}
+
+#back {
+    background-color: darkgray;
+    margin-left: 25%;
+}
+
+img {
+    float: right;
+    width: 40%;
+}

@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    background-color: blue;
+    color: white;
+    width: 500px;
+    overflow: auto;
+    font-size: 12px;
+}
+
+img {
+    float: right;
+    margin: 0 0 20px 20px;
+}

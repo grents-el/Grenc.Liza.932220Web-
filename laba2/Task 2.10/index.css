@@ -1,0 +1,17 @@
+div {
+
+}
+
+#float {
+    background-color: aquamarine;
+    margin: 10px;
+    position: static;
+    height: 100px;
+    width: 150px;
+}
+
+#clear {
+    background-color: bisque;
+    position: relative;
+    width: 100%;
+}

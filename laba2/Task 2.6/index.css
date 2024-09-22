@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+div {
+}
+
+#main {
+    font-size: 14px;
+}
+
+#main1 {
+    background-color: white;
+    width: 500px;
+    height: 200px;
+}
+
+#main2 {
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    padding: 40px;
+    border: 10px solid blue;
+}

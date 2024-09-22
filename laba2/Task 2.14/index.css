@@ -1,0 +1,48 @@
+div {
+}
+
+#sidebar {
+    background-color: aqua;
+}
+
+#menu {
+    background-color: bisque;
+    width: 25%;
+    float: left;
+    list-style-type: disc;
+}
+
+#main {
+    background-color: darkgray;
+    margin-left: 25%;
+}
+
+@media (max-width: 600px) {
+    div {
+    }
+
+    #sidebar {
+        background-color: aqua;
+    }
+
+    #menu {
+        background-color: bisque;
+        position: relative;
+        top: 10px;
+        width: 100%;
+        float: none;
+        list-style-type: none;
+    }
+    
+    .inline {
+    }
+
+    .inline li {
+        display: inline;
+    }
+
+    #main {
+        background-color: darkgray;
+        margin-left: 0;
+    }
+}
