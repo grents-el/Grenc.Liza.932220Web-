@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Frontend Task №7</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="buttonsWrapper">
+            <div class="button" id="leftButton"
+             onmousedown="openOne('leftBlock', 'catPicture', 'rightBlock', 'dogPicture')">
+                Левая колонка
+            </div>
+            <div class="button" id="rightButton"
+             onmousedown="openOne('rightBlock', 'dogPicture', 'leftBlock', 'catPicture')">
+                Правая колонка
+            </div>
+            <div class="button" id="centerButton"
+            onmousedown="openTwo('rightBlock', 'leftBlock', 'dogPicture','catPicture')">
+                Обе две
+            </div>
+        </div>
+
+        <div id="leftBlock">
+            <img src="cat.jpg" alt="A cat" id="catPicture" class="image">
+        </div>
+        <div id="rightBlock">
+            <img src="dog.jpg" alt="A dog" id="dogPicture">
+        </div>
+    </div>
+</body>
+</html>
