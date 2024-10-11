@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 10</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="scripts.js"></script>
+</head>
+<body onload="Initialization()">
+    <div class="main">
+        <table>
+            <tr>
+                <td colspan="5" id = "output">
+                    <div id = "mainText"></div>
+                    <div id = "bgText"></div>
+                </td>
+            </tr>
+            <tr>
+                <td onclick="AddSymbol('7', this)">7</td> 
+                <td onclick="AddSymbol('8', this)">8</td> 
+                <td onclick="AddSymbol('9', this)">9</td> 
+                <td onclick="PressOperationButton('/', this)">/</td> 
+                <td onclick="Clear(this)">C</td>
+            </tr>
+            <tr>
+                <td onclick="AddSymbol('4', this)">4</td> 
+                <td onclick="AddSymbol('5', this)">5</td> 
+                <td onclick="AddSymbol('6', this)">6</td> 
+                <td onclick="PressOperationButton('*', this)">*</td> 
+                <td onclick="RemoveLastSymbol(this)">&lt;</td>
+            </tr>
+            
+            <tr>
+                <td onclick="AddSymbol('1', this)">1</td> 
+                <td onclick="AddSymbol('2', this)">2</td> 
+                <td onclick="AddSymbol('3', this)">3</td> 
+                <td onclick="PressOperationButton('-',this)">-</td> 
+                <td rowspan="2" onclick="PressCalculateButton(this)">=</td>
+            </tr>
+
+            <tr>
+                <td colspan="2" onclick="AddSymbol('0', this)">0</td> 
+                <td onclick="AddSymbol('.', this)">.</td> 
+                <td onclick="PressOperationButton('+', this)">+</td> 
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
