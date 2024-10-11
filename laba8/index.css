@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+input[type="button"] {
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    text-align: center; 
+}
+
+.textButton {
+    display: block;
+    margin: 0px 0;
+    padding: 0px 5px;
+}
