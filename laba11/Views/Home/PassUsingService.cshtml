@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "AccessServiceDirectly";
+    @inject Lab11.Services.ICalcService Calc;
+}
+
+<h1>AccessServiceDirectly</h1>
+<div><b>First number: @Calc.First</b></div>
+<div><b>Second number: @Calc.Second</b></div>
+<div><b>Add:</b></div>
+@Calc.First + @Calc.Second = @Calc.Sum()
+<div><b>Substract:</b></div>
+@Calc.First - @Calc.Second = @Calc.Sub()
+<div><b>Multiply:</b></div>
+@Calc.First * @Calc.Second = @Calc.Mul()
+<div><b>Divide:</b></div>
+@Calc.First / @Calc.Second = @if (Calc.Div() == -1)
+                                {
+                                    @: Error!
+                                }
+                                else
+                                {
+                                    @Calc.Div()
+                                }
